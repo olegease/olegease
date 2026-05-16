@@ -51,3 +51,5 @@ a docs:
 
 - Formatting:
   - Always insert spaces after curly `{`, round `(`, angle `<` opening brackets and before curly `}`, round `)`, angle `>` closing brackets but not before or after array opening `[` or closing `]` brackets
+
+- TODO building
