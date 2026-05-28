@@ -35,6 +35,13 @@ a docs:
 - `libraries`: _[Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)_
 - `applications`: _[GNU Affero General Public License v3.0 or later](https://spdx.org/licenses/AGPL-3.0-or-later.html)_
 
+## Versions
+> naming in git commit messages
+
+- `alpha` (v0.0.z): _alpha patch z_
+- `beta` (v0.y.z): _beta y patch z_
+- `major` (vX.y.z): _major X minor y patch z_
+
 ## Code Style Naming and Formatting
 
 ### C++
