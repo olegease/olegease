@@ -11,12 +11,13 @@
 - **`ease-git`**: _simple C++ application for git commands wrapper, at start only cloning repos based on current directory path_
 
 ## Organizations
+> most of all projects are computer graphics related ones which targets mainly `x86-64` architecture on `linux` (as a main development environment)
 
-- **`forkease`**: _fork repositories to my personal andor my organization andor any other organization in `{Org Alias}-{Original Repo Name}`
-- **`soneight`**: _`C++17` oriented `3D OpenGL` graphics related projects_
-- **`motwonil`**: _`C++23+` only standard modules `3D Vulkan` graphics related projects (pending)_
-- **`nethreed`**: _`Javascript NodeJS` web `2D WebGL` graphics related projects (pending)_
-- **`asevenly`**: _`Assembly NASM x64 and C90 C` language standard `2D Software Rendering` graphics related projects (pending)_
+- **`forkease`**: _fork repositories to my personal andor my organization andor any other organization in `{Org Alias or Full Name}-{Original Repo Name}`_
+- **`soneight`**: _namespace `son8` `C++17` oriented `3D OpenGL` graphics related projects, mainly retro `RPG` style games_
+- **`motwonil`**: _namespace `mo20` `C++23+` only with `import std` and standard modules `3D Vulkan` graphics related projects (pending), mainly renderer engines_
+- **`nethreed`**: _global web `NE3` package scope `@ne3` `Javascript NodeJS` web `2D WebGL` graphics related projects (pending)_
+- **`asevenly`**: _prefix `a7` `Assembly NASM x64 and C90 C` language standard `2D Software Rendering` graphics related projects (pending), mainly graphical user interfaces_
 
 ### Son 8
 
@@ -45,8 +46,9 @@ a docs:
 
 ## Licensing
 
-- `libraries`: _`[Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)`_
-- `applications`: _`[GNU Affero General Public License v3.0 or later](https://spdx.org/licenses/AGPL-3.0-or-later.html)`_
+- `libraries`: _[`Apache License 2.0`](https://spdx.org/licenses/Apache-2.0.html)_
+- `applications`: _[`GNU Affero General Public License v3.0 or later`](https://spdx.org/licenses/AGPL-3.0-or-later.html)_
+- `other`: _[`Boost Software License 1.0`](https://spdx.org/licenses/BSL-1.0.html)_
 
 ## Versions
 > naming in git commit messages
