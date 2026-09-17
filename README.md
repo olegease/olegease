@@ -1,4 +1,4 @@
-# OLEGEASE
+# `OLEGEASE`
 > general information about my personal projects andor applications
 
 ## Repositories
@@ -48,6 +48,7 @@ a docs:
 
 - `libraries`: _[`Apache License 2.0`](https://spdx.org/licenses/Apache-2.0.html)_
 - `applications`: _[`GNU Affero General Public License v3.0 or later`](https://spdx.org/licenses/AGPL-3.0-or-later.html)_
+- `documentations`: _[`Creative Commons Attribution Non Commercial 4.0 International`](https://spdx.org/licenses/CC-BY-NC-4.0.html)_
 - `other`: _[`Boost Software License 1.0`](https://spdx.org/licenses/BSL-1.0.html)_
 
 ## Versions
@@ -69,7 +70,39 @@ a docs:
   - `PascalCase`: _class types, global variables_
   - `PascalCaseUnderscored_`: _private types_
   - `camelCase`: _function arguments, local variables_
-  - `camelCaseUndercored_`: _private data members_
+  - `camelCaseUnderscored_`: _private data members_
 
 - Formatting:
-  - Always insert spaces after curly `{`, round `(`, angle `<` opening brackets and before curly `}`, round `)`, angle `>` closing brackets but not before or after array opening `[` or closing `]` brackets
+  - Always insert spaces after `Curly {`, `Round (`, `Angle <` opening brackets and before `Curly }`, `Round )`, `Angle >` closing brackets but not before or after `Array [` opening or `Array ]` closing brackets
+  - When brackets are after each other only last one should contain space character
+
+## Naming Things
+> used for naming related up to four things, word chains (mostly pairs) with same character length
+
+- brackets: `Angle < >` - `Array []` - `Curly { }` - `Round ( )`
+- list element position related: `Prev` - `Curr` - `Next`
+- stack operations (also flag operation like `set-get-clear`): `Put` - `Top` - `Pop`
+
+### General Word Pairs Table
+> usually pair forms from: smaller to larger, populating to destroying or obtaining, good to bad
+
+|     3-4     |      5-5      |       6-6       |         7-8         |
+|:-----------:|:-------------:|:---------------:|:-------------------:|
+|  `Set-Get`  | `Clean-Dirty` | `Create-Delete` | `Positive-Negative` |
+| `Show-Hide` | `North-South` | `Writer-Reader` |  `Slender-Massive`  |
+| `Bind-Free` | `Lower-Upper` | `Insert-Remove` |  `Scatter-Restore`  |
+|  `New-Old`  | `Build-Erase` | `Expand-Reduce` | `Increase-Decrease` |
+| `Save-Load` | `Small-Large` | `Listen-Ignore` |  `Success-Failure`  |
+| `West-East` | `Throw-Catch` |                 |                     |
+| `Push-Pull` | `First-Final` |                 |                     |
+| `Give-Keep` | `Right-Wrong` |                 |                     |
+| `Tiny-Huge` |               |                 |                     |
+|  `Col-Row`  |               |                 |                     |
+| `Slow-Fast` |               |                 |                     |
+|  `Add-Sub`  |               |                 |                     |
+| `Love-Hate` |               |                 |                     |
+| `Pile-Heap` |               |                 |                     |
+| `Kept-Left` |               |                 |                     |
+|             |               |                 |                     |
+
+###### END OF `OLEGEASE`
