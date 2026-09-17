@@ -4,10 +4,18 @@
 ## Repositories
 
 - **`template`**: _template repository with minimal structure of future projects, base template for other templates_
-- **`hello-mxx-world`**: _exemplar of `C++23` Standard Modules CMake application_
-- **`hello-cxx-world`**: _exemplar of `C++17` Standard Headers CMake application_
-- **`hello-web-world`**: _exemplar of `JavaScript NodeJS (mjs)`, Postgres and Web `(JS, HTML and CSS)` application_
-- **`hello-asm-world`**: _exemplar of Assembly `NASM x86-64` application_
+- **`hello-mxx-world`**: _exemplar of `C++23` Standard Modules `CMake` dual projects:_
+  - `ghub`: _`Library` Module_
+  - `berg`: _`Program` that uses `ghub` Module Library_
+- **`hello-cxx-world`**: _exemplar of `C++17` Standard Headers `CMake` dual projects:_
+  - `ghub`: _`Library` Static_
+  - `berg`: _`Program` that uses `ghub` Static Library_
+- **`hello-asm-world`**: _exemplar of `C90` Standard Pedantic `Makefile` with `NASM x86-64` assembly dual projects:_
+  - `ghub`: _`Library` Shared_
+  - `berg`: _`Program` that uses `ghub` Shared Library_
+- **`hello-web-world`**: _exemplar of `JavaScript NodeJS (mjs)`, Postgres and Web `(JS, HTML and CSS)` dual projects_
+  - `ghub`: _`Package` Remote_
+  - `berg`: _`Program` that uses `ghub` Remote Package_
 - **`ease-git`**: _simple C++ application for git commands wrapper, at start only cloning repos based on current directory path_
 
 ## Organizations
@@ -41,7 +49,7 @@ a fork:
 a docs:
 > documentation only repository
 
-- `hub`: _`github` clone_
+- `ghub`: _`github` clone_
 - `berg`: _`codeberg` clone_
 
 ## Licensing
