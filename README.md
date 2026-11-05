@@ -32,6 +32,9 @@
 - libraries: _using CMake required version in range `3.8..3.27`, lower minimum for C++17 standard available, upper maximum because of next version kind of supports C++20 modules_
 - applications: _using CMake required version in range `3.20..3.27`, lower minimum for configure and build presets, upper maximum same as libraries_
 
+#### IMPORTANT
+> before adding `git` tag to a project use `git --amend` until it generates hash that starts with `8` number
+
 ## Remotes
 
 a base:
